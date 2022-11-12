@@ -13,6 +13,12 @@
 		7E83D7E8291F81C200B1AC32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E83D7E6291F81C200B1AC32 /* Main.storyboard */; };
 		7E83D7EA291F81C300B1AC32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E83D7E9291F81C300B1AC32 /* Assets.xcassets */; };
 		7E83D7ED291F81C300B1AC32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E83D7EB291F81C300B1AC32 /* LaunchScreen.storyboard */; };
+		7E83D7F7291F820D00B1AC32 /* AutoLayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E83D7F4291F820D00B1AC32 /* AutoLayViewModel.swift */; };
+		7E83D7F8291F820D00B1AC32 /* AutoLayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E83D7F5291F820D00B1AC32 /* AutoLayViewController.swift */; };
+		7E83D7F9291F820D00B1AC32 /* AutoLayViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E83D7F6291F820D00B1AC32 /* AutoLayViewController.storyboard */; };
+		7E83D7FB291FC92700B1AC32 /* StackSamplesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E83D7FA291FC92700B1AC32 /* StackSamplesViewController.storyboard */; };
+		7E83D7FD291FE1B000B1AC32 /* StackViewSample2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E83D7FC291FE1B000B1AC32 /* StackViewSample2.storyboard */; };
+		7E83D801291FEE8C00B1AC32 /* NestedStackExample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E83D800291FEE8C00B1AC32 /* NestedStackExample.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		7E83D7E9291F81C300B1AC32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E83D7EC291F81C300B1AC32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E83D7EE291F81C300B1AC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E83D7F4291F820D00B1AC32 /* AutoLayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayViewModel.swift; sourceTree = "<group>"; };
+		7E83D7F5291F820D00B1AC32 /* AutoLayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayViewController.swift; sourceTree = "<group>"; };
+		7E83D7F6291F820D00B1AC32 /* AutoLayViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AutoLayViewController.storyboard; sourceTree = "<group>"; };
+		7E83D7FA291FC92700B1AC32 /* StackSamplesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StackSamplesViewController.storyboard; sourceTree = "<group>"; };
+		7E83D7FC291FE1B000B1AC32 /* StackViewSample2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StackViewSample2.storyboard; sourceTree = "<group>"; };
+		7E83D800291FEE8C00B1AC32 /* NestedStackExample.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NestedStackExample.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				7E83D7E9291F81C300B1AC32 /* Assets.xcassets */,
 				7E83D7EB291F81C300B1AC32 /* LaunchScreen.storyboard */,
 				7E83D7EE291F81C300B1AC32 /* Info.plist */,
+				7E83D7F4291F820D00B1AC32 /* AutoLayViewModel.swift */,
+				7E83D7F5291F820D00B1AC32 /* AutoLayViewController.swift */,
+				7E83D7F6291F820D00B1AC32 /* AutoLayViewController.storyboard */,
+				7E83D7FA291FC92700B1AC32 /* StackSamplesViewController.storyboard */,
+				7E83D7FC291FE1B000B1AC32 /* StackViewSample2.storyboard */,
+				7E83D800291FEE8C00B1AC32 /* NestedStackExample.storyboard */,
 			);
 			path = TestUI;
 			sourceTree = "<group>";
@@ -127,6 +145,10 @@
 			files = (
 				7E83D7ED291F81C300B1AC32 /* LaunchScreen.storyboard in Resources */,
 				7E83D7EA291F81C300B1AC32 /* Assets.xcassets in Resources */,
+				7E83D7F9291F820D00B1AC32 /* AutoLayViewController.storyboard in Resources */,
+				7E83D7FD291FE1B000B1AC32 /* StackViewSample2.storyboard in Resources */,
+				7E83D801291FEE8C00B1AC32 /* NestedStackExample.storyboard in Resources */,
+				7E83D7FB291FC92700B1AC32 /* StackSamplesViewController.storyboard in Resources */,
 				7E83D7E8291F81C200B1AC32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E83D7F7291F820D00B1AC32 /* AutoLayViewModel.swift in Sources */,
 				7E83D7E5291F81C200B1AC32 /* ViewController.swift in Sources */,
 				7E83D7E1291F81C200B1AC32 /* AppDelegate.swift in Sources */,
 				7E83D7E3291F81C200B1AC32 /* SceneDelegate.swift in Sources */,
+				7E83D7F8291F820D00B1AC32 /* AutoLayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
